@@ -1,36 +1,21 @@
-README for Next Word Prediction Project
-Project Overview
-This repository contains a Next Word Prediction project implemented in a Jupyter Notebook. The model is designed to predict the most likely next word based on a given input text, using Python and its powerful libraries. This project demonstrates how natural language processing (NLP) techniques can be combined with machine learning to create intelligent text completion systems.
+# Next Word Prediction
 
-Features
-Data Preprocessing: Tokenization, padding, and vocabulary creation.
-Model Architecture: Utilizes a deep learning-based model (LSTM or similar) for sequential word prediction.
-Interactive Predictions: Allows users to input text and get real-time word predictions.
-Visualization: Graphs and metrics to evaluate model performance.
-Installation
-Clone this repository:
-bash
-Copy code
-git clone https://github.com/your-repo/next-word-prediction.git
-Navigate to the directory:
-bash
-Copy code
-cd next-word-prediction
-Install the required libraries:
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Open the Jupyter Notebook:
-bash
-Copy code
-jupyter notebook next_word_prediction.ipynb
-Follow the step-by-step instructions in the notebook.
-Technologies Used
-Python
-Jupyter Notebook
-TensorFlow/Keras
-NumPy & Pandas
-Matplotlib & Seaborn
-License
-This project is open-source and available under the MIT License.
+This project implements a **Next Word Prediction** model using Python and Jupyter Notebook. The primary goal of this project is to predict the next word in a sentence based on a given input sequence, leveraging Natural Language Processing (NLP) techniques and deep learning models.
+
+## Features
+- Predicts the most probable next word for a given sequence of text.
+- Preprocessed text data for tokenization and model training.
+- Utilizes deep learning architecture for accurate predictions.
+- Visualizes model performance through loss and accuracy graphs.
+
+## Libraries Used
+- **TensorFlow/Keras**: For building and training the neural network model.
+- **NumPy**: For numerical computations.
+- **Pandas**: For data preprocessing.
+- **Matplotlib**: For data visualization.
+- **NLTK/Spacy**: For text preprocessing and tokenization.
+
+## How to Run
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/your-repo-name/next-word-prediction.git
